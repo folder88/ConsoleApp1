@@ -54,5 +54,38 @@ namespace ConsoleApp1.Kathi
 
             Console.WriteLine("You have " + (distanz * miles) + " miles to drive");
         }
+
+        public void taskSix()
+        {
+            Console.WriteLine("the adding part of two numbers");
+            Console.WriteLine("give me the first");
+            var addOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("give me the second");
+            var addSec = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The output is: " + (addOne + addSec));
+            Console.WriteLine(" ");
+
+            Console.WriteLine("the subtracting part of two numbers :) ");
+            Console.WriteLine("give me the first and than the second number");
+            var subOne = Convert.ToInt32(Console.ReadLine());
+            var subSec = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The result is: " + (subOne - subSec));
+            Console.WriteLine(" ");
+
+            Console.WriteLine("the multiplying part of two numbers start");
+            Console.WriteLine("And again, enter two numbers, please");
+            var multiOne = Convert.ToInt32(Console.ReadLine());
+            var multiSec = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The result of this is: " + (multiOne * multiSec));
+            Console.WriteLine(" ");
+
+            Console.WriteLine("the dividing part of two numbers");
+            Console.WriteLine("the last numbers.realy! i promis! :D");
+            var diviOne = Convert.ToInt32(Console.ReadLine());
+            var diviSec = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Aaaand the last result iiiiiiis: " + ((decimal)diviOne / (decimal)diviSec));
+            Console.WriteLine(" ");
+
+        }
     }
 }
