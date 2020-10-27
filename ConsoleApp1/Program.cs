@@ -8,14 +8,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
 
-            Class1 class_01 = new Cornel.Class1();
 
-            class_01.method();
+            class_cornel object_01 = new Cornel.class_cornel();
 
-            ClassSamira newclass = new Samira.ClassSamira();
-            newclass.myMethod();
+            object_01.exercise_01();
+            object_01.exercise_02();
+            object_01.exercises_03();
+
 
         }
 
