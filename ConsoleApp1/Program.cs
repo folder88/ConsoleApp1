@@ -16,7 +16,12 @@ namespace ConsoleApp1
             class_01.method();
 
             ClassSamira newclass = new Samira.ClassSamira();
-            newclass.myMethod();
+            newclass.firstTask();
+            newclass.secondTask();
+            newclass.thirdTask();
+            newclass.forthTask();
+
+
 
             testOne one = new Kathi.testOne();
             // one.taskOne();
