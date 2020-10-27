@@ -18,7 +18,27 @@ namespace ConsoleApp1
             object_01.exercises_03();
 
             ClassSamira newclass = new Samira.ClassSamira();
-            newclass.myMethod();
+            //newclass.firstTask();
+            //newclass.secondTask();
+            //newclass.thirdTask();
+            //newclass.forthTask();
+            //newclass.fifthTask();
+            //newclass.sixthTask();
+            newclass.seventhTask();
+
+
+
+
+
+
+            testOne one = new Kathi.testOne();
+            // one.taskOne();
+            // one.taskTwo();
+            // one.taskThree();
+            // one.taskFour();
+            // one.taskFive();
+            // one.taskSix();
+            // one.taskSeven();
 
         }
 
