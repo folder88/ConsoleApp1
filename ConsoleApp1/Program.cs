@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.Cornel;
+using ConsoleApp1.Samira;
 using System;
 
 namespace ConsoleApp1
@@ -12,6 +13,10 @@ namespace ConsoleApp1
             Class1 class_01 = new Cornel.Class1();
 
             class_01.method();
+
+            ClassSamira newclass = new Samira.ClassSamira();
+            newclass.myMethod();
+
         }
 
        
