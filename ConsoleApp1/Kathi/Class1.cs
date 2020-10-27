@@ -99,5 +99,15 @@ namespace ConsoleApp1.Kathi
             Console.WriteLine("Your BMI is: " + (decimal)bmi);
 
         }
+
+        public void TaskEight()
+        {
+            Console.WriteLine("Please, enter a number");
+            double some = Convert.ToDouble(Console.ReadLine());
+            Console.Write("{0} {0} {0} {0}", some);
+            Console.WriteLine("");
+            Console.Write("{0}{0}{0}{0}", some);
+
+        }
     }
 }

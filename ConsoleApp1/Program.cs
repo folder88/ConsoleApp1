@@ -31,6 +31,7 @@ namespace ConsoleApp1
             // one.taskFive();
             // one.taskSix();
             // one.taskSeven();
+            one.TaskEight();
 
         }
 
