@@ -85,6 +85,18 @@ namespace ConsoleApp1.Kathi
             var diviSec = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Aaaand the last result iiiiiiis: " + ((decimal)diviOne / (decimal)diviSec));
             Console.WriteLine(" ");
+        }
+
+        public void taskSeven()
+        {
+            Console.WriteLine("Now, the BMI starts! O- Oh....");
+            Console.WriteLine("please, enter your kg");
+            float kg = float.Parse(Console.ReadLine());
+            Console.WriteLine("please, enter height");
+            float height = float.Parse(Console.ReadLine());
+            float m2 = height * height;
+            float bmi = kg / m2;
+            Console.WriteLine("Your BMI is: " + (decimal)bmi);
 
         }
     }
