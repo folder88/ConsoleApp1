@@ -20,7 +20,12 @@ namespace ConsoleApp1
 
             testOne one = new Kathi.testOne();
             // one.taskOne();
-            one.taskSeven();
+            // one.taskTwo();
+            // one.taskThree();
+            // one.taskFour();
+            // one.taskFive();
+            // one.taskSix();
+            // one.taskSeven();
 
         }
 
