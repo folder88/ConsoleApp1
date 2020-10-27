@@ -41,6 +41,37 @@ namespace ConsoleApp1.Samira
             Console.WriteLine("Is the value " + number + " more than 300? " + (number > 300));
             
 
+        }
+
+        public void fifthTask()
+        {
+            Console.WriteLine("Enter the distance  in kilometer : ");
+            double dist = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The distance between New York and vienna is  " + (dist * 0.6214) + " miles." );
+
+        }
+
+        public void sixthTask()
+        {
+            Console.WriteLine("Ente a number : ");
+            double firNumber = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ente another number : ");
+            double secNumber = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("The sum is : " + (firNumber + secNumber));
+            Console.WriteLine("The substract is : " + (firNumber - secNumber));
+            Console.WriteLine("The multiply is : " + (firNumber * secNumber));
+            Console.WriteLine("The division is : " + (firNumber / secNumber));
+
+
+        }
+        public void seventhTask()
+        {
+            Console.WriteLine("Enter your weight : ");
+            double weight = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter your height in meters : ");
+            double height = Convert.ToDouble(Console.ReadLine());
+        
+            Console.WriteLine("Your BMI is : " + (weight / (height*height)));
 
         }
     }
