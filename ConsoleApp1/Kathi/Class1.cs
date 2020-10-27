@@ -35,8 +35,7 @@ namespace ConsoleApp1.Kathi
         }
 
         public void taskFour()
-        {
-            
+        { 
             Console.WriteLine("Enter first number");
             var first = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter second number");
@@ -45,8 +44,15 @@ namespace ConsoleApp1.Kathi
             Console.WriteLine("Is the first value "+ first +" less than 150 ? "+ (first < 150));
             
             Console.WriteLine("Is the second value " + second + " bigger than 300? " + (second > 300));
-            
+        }
 
+        public void taskFive()
+        {
+            float miles = 0.6214f;
+            Console.WriteLine("Enter the kilometers to get the miles");
+            var distanz = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("You have " + (distanz * miles) + " miles to drive");
         }
     }
 }
