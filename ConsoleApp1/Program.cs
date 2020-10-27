@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1.Cornel;
+using System;
 
 namespace ConsoleApp1
 {
@@ -6,16 +7,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World4!");
+            
 
-            method();
+            Class1 class_01 = new Cornel.Class1();
+
+            class_01.method();
         }
 
-        static void method()
-        {
-            Console.WriteLine("hello from method");
-            Console.WriteLine("hello from method");
-            Console.WriteLine("hello from method");
-        }
+       
     }
 }

@@ -7,10 +7,10 @@ namespace ConsoleApp1.Cornel
     class Class1
     {
 
-        static void method()
+        public void method()
         {
             Console.WriteLine("Hello World");
-            Console.WriteLine("Hello World");
+            
         }
     }
 }
