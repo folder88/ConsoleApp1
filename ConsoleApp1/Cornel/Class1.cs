@@ -9,7 +9,7 @@ namespace ConsoleApp1.Cornel
 
         public void method()
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello from cornel");
             
         }
     }
