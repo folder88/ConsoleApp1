@@ -10,5 +10,11 @@ namespace ConsoleApp1.Kathi
         {
             Console.WriteLine("Hello from kathi's folder");
         }
+
+        public void taskOne()
+        {
+            string myName = "Kathi";
+            Console.WriteLine("Hello from " + myName + " folder");
+        }
     }
 }

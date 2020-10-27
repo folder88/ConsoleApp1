@@ -19,6 +19,7 @@ namespace ConsoleApp1
             newclass.myMethod();
 
             testOne one = new Kathi.testOne();
+            // one.taskOne();
             one.sayHello();
 
         }
