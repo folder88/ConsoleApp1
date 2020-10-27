@@ -14,6 +14,8 @@ namespace ConsoleApp1
         static void method()
         {
             Console.WriteLine("hello from method");
+            Console.WriteLine("hello from method");
+            Console.WriteLine("hello from method");
         }
     }
 }
